@@ -7,14 +7,14 @@ const NavBar = () => {
     <div className="mx-auto max-w-[1200px] ">
       <nav className=" flex items-center justify-between border border-solid">
         <div className="p-2">
-          <Link to="/home">
+          <Link to="/">
             <FilmIcon className="w-8 h-8"></FilmIcon>
           </Link>
         </div>
 
         <div>
           <ul className="flex items-center content-center p-2">
-            <Link to="/home">
+            <Link to="/">
               <li className="px-2">Home</li>
             </Link>
             <Link to="/about">
